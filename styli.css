@@ -47,4 +47,26 @@
     h2 {
       color: #f25c05;
     }
-  
+  footer {
+  background-color: #f25c05;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+footer .footer-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
