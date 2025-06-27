@@ -2,95 +2,98 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Programação da Festa Junina</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atividades - Festa Junina</title>
   <style>
     body {
-      background-color: #fff8dc;
-      font-family: 'Trebuchet MS', sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      color: #333;
+      background-color: #fff8dc;
     }
 
     header {
-      background-color: #d2691e;
+      background-color: #ff4500;
       color: white;
-      text-align: center;
-      padding: 30px 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 36px;
+      margin: 0 auto;
+      font-size: 24px;
     }
 
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      background-color: #fff3e0;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-
-    h2 {
-      color: #8b0000;
-      border-bottom: 2px dashed #ffa500;
-      padding-bottom: 5px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      background-color: #ffe4b5;
-      margin: 10px 0;
-      padding: 15px;
-      border-radius: 5px;
-      transition: background 0.3s ease;
-    }
-
-    li:hover {
-      background-color: #ffd699;
-    }
-
-    .hora {
+    .voltar {
+      background-color: white;
+      color: #ff4500;
+      border: none;
+      padding: 10px 20px;
       font-weight: bold;
-      color: #b22222;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
     }
 
-    footer {
-      text-align: center;
-      background-color: #d2691e;
-      color: white;
-      padding: 15px;
-      margin-top: 40px;
+    .voltar:hover {
+      background-color: #ffe4b5;
+    }
+
+    main {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .atividade {
+      background-color: #ffe4b5;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .atividade h2 {
+      margin-top: 0;
+      color: #d35400;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Programação da Festa Junina</h1>
+    <a class="voltar" href="index.html">← Voltar</a>
+    <h1>Atividades da Festa Junina</h1>
+    <div style="width: 90px;"></div> <!-- Espaço para equilibrar o layout -->
   </header>
 
-  <div class="container">
-    <h2>Agenda do Arraiá</h2>
-    <ul>
-      <li><span class="hora">17h00:</span> Abertura oficial com acendimento da fogueira</li>
-      <li><span class="hora">17h30:</span> Quadrilha das crianças</li>
-      <li><span class="hora">18h30:</span> Apresentação musical com trio pé de serra</li>
-      <li><span class="hora">19h30:</span> Concurso de traje caipira</li>
-      <li><span class="hora">20h30:</span> Quadrilha tradicional aberta ao público</li>
-      <li><span class="hora">21h30:</span> Encerramento com fogos de artifício</li>
-    </ul>
-  </div>
+  <main>
+    <div class="atividade">
+      <h2>🎁 Correio Elegante</h2>
+      <p>Envie bilhetes secretos e divertidos para amigos ou para aquela pessoa especial — com ou sem identificação!</p>
+    </div>
 
-  <footer>
-    &copy; 2025 Arraiá de São João – Viva a tradição!
-  </footer>
+    <div class="atividade">
+      <h2>🚔 Cadeia</h2>
+      <p>Pague para prender os amigos por alguns minutos em uma cadeia caipira. Só saem pagando fiança!</p>
+    </div>
+
+    <div class="atividade">
+      <h2>🎯 Pescaria</h2>
+      <p>Acerte o alvo e ganhe prêmios divertidos — ideal para todas as idades!</p>
+    </div>
+
+    <div class="atividade">
+      <h2>🎭 Dança da Quadrilha</h2>
+      <p>Participe da tradicional quadrilha com coreografias animadas, trajes típicos e muita alegria.</p>
+    </div>
+
+    <div class="atividade">
+      <h2>🪀 Argolas & Tiro ao Alvo</h2>
+      <p>Testes de pontaria e diversão com brindes juninos para todos que acertarem!</p>
+    </div>
+  </main>
 
 </body>
 </html>
