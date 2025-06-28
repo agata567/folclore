@@ -25,6 +25,10 @@
       font-weight: bold;
     }
 
+    nav a:hover{
+      color: white;
+    }
+
     main {
       max-width: 800px;
       margin: 20px auto;
