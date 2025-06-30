@@ -1,11 +1,11 @@
  body {
-  font-family: Arial, sans-serif;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
   margin: 0;
-  background-color: #fff2e0; /* amarelo bem claro */
+  background-color: #fff0d5; /* fundo claro tipo palha */
 }
 
 header {
-  background-color: #ffb347; /* laranja suave */
+  background-color: #e94e1b; /* vermelho fogueira */
   color: white;
   padding: 20px;
   display: flex;
@@ -15,7 +15,7 @@ header {
 
 .voltar {
   background-color: white;
-  color: #ff9900;
+  color: #c14400; /* laranja queimado */
   border: none;
   padding: 10px 20px;
   font-weight: bold;
@@ -26,7 +26,7 @@ header {
 }
 
 .voltar:hover {
-  background-color: #ffe6cc; /* tom claro para hover */
+  background-color: #fff3e0; /* hover bem leve */
 }
 
 h1 {
@@ -41,7 +41,7 @@ main {
 }
 
 h2 {
-  color: #e67300; /* laranja mais suave */
+  color: #db8400; /* amarelo queimado tipo milho */
   text-align: center;
 }
 
@@ -51,16 +51,17 @@ ul {
 }
 
 li {
-  background-color: #ffe0b3; /* bege/amarelo bem clarinho */
+  background-color: #fff2b2; /* amarelo clarinho tipo curau */
   margin: 10px 0;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+  box-shadow: 1px 1px 5px rgba(255, 102, 0, 0.2);
   font-size: 18px;
 }
 
 footer {
-  background-color: #ffd480; /* amarelo dourado claro */
+  background-color: #ffc966; /* amarelo canjica */
   text-align: center;
   padding: 10px;
 }
+
