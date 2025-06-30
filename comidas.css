@@ -1,12 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
   margin: 0;
-  background-color: #dd703e;
-  font-family: 'Comic Sans MS';
+  background-color: #fff0d5; /* fundo claro tipo palha */
 }
 
 header {
-  background-color: #ff6600;
+  background-color: #e94e1b; /* vermelho fogueira */
   color: white;
   padding: 20px;
   position: relative;
@@ -24,7 +23,7 @@ header h1 {
   top: 50%;
   transform: translateY(-50%);
   background-color: white;
-  color: #ff5e00;
+  color: #c14400; /* laranja queimado */
   border: none;
   padding: 10px 20px;
   font-weight: bold;
@@ -34,7 +33,7 @@ header h1 {
 }
 
 .voltar:hover {
-  background-color: #ffcab5;
+  background-color: #fff3e0; /* hover suave tipo pamonha */
 }
 
 main {
@@ -46,12 +45,12 @@ main {
 }
 
 .comida {
-  background-color: #ffb68c;
+  background-color: #fff2b2; /* amarelo tipo curau */
   padding: 15px;
   border-radius: 10px;
   text-align: center;
   width: 250px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
+  box-shadow: 2px 2px 8px rgba(255, 119, 0, 0.2);
 }
 
 .comida h3 {
@@ -60,7 +59,7 @@ main {
 
 .comida span {
   font-weight: bold;
-  color: #d33c00;
+  color: #b34700; /* tom caramelo */
   display: block;
   margin-bottom: 10px;
 }
@@ -72,7 +71,8 @@ main {
 }
 
 footer {
-  background-color: #ff4800;
+  background-color: #ffc966; /* amarelo canjica */
   text-align: center;
   padding: 10px;
 }
+
