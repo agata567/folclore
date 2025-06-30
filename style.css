@@ -1,61 +1,63 @@
  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #d64d0d;
-      font-family: 'Comic Sans MS';
-    }
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  margin: 0;
+  background-color: #fff0d5; /* fundo palha suave */
+}
 
-    header {
-      background-color: #ff7b00;
-      padding: 20px;
-      color: white;
-      text-align: center;
-    }
-    h1 {
-      margin-bottom: 10px;
-    }
+header {
+  background-color: #e94e1b; /* vermelho fogueira */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
 
-    nav {
-      margin-top: 10px;
-    }
+h1 {
+  margin-bottom: 10px;
+}
 
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-    }
+nav {
+  margin-top: 10px;
+}
 
-    nav a:hover{
-      color: white;
-    }
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-    main {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 10px;
-    }
+nav a:hover {
+  color: #ffe6cc; /* hover suave como doce de leite */
+}
 
-    .destaque{
-      background-color: white;
-      margin-bottom: 20px;
-      padding: 10px;
-      border-left: 5px solid rgb(255, 123, 0);
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgb(3, 3, 3);
-      text-align: center;
-    }
-    .destaque h2{
-      margin-bottom: 10px;
-      color: rgb(255, 140, 33);
-    }
-    section{
-      margin-bottom: 20px;
-    }
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
 
-    footer{
-        background-color: #ff7300;
-        text-align: center;
-        padding: 10px;
-    }
+.destaque {
+  background-color: #fff2b2; /* amarelinho tipo curau */
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 5px solid #db8400; /* laranja queimado tipo milho assado */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 119, 0, 0.2); /* sombra quente */
+  text-align: center;
+}
+
+.destaque h2 {
+  margin-bottom: 10px;
+  color: #b34700; /* tom de doce de leite/caramelo */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #ffc966; /* amarelo canjica */
+  text-align: center;
+  padding: 10px;
+}
