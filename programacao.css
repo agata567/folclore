@@ -1,66 +1,66 @@
  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #ffba92;
-    }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff2e0; /* amarelo bem claro */
+}
 
-    header {
-      background-color: #ff3300;
-      color: white;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+header {
+  background-color: #ffb347; /* laranja suave */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    .voltar {
-      background-color: white;
-      color: #ff5e00;
-      border: none;
-      padding: 10px 20px;
-      font-weight: bold;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 16px;
-      font-family: 'Comic Sans MS';
-    }
+.voltar {
+  background-color: white;
+  color: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
+}
 
-    .voltar:hover {
-      background-color: #ffd0b5;
-    }
+.voltar:hover {
+  background-color: #ffe6cc; /* tom claro para hover */
+}
 
-    h1 {
-      margin: 0 auto;
-      font-size: 24px;
-    }
+h1 {
+  margin: 0 auto;
+  font-size: 24px;
+}
 
-    main {
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-    }
+main {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
 
-    h2 {
-      color: #d37800;
-      text-align: center;
-    }
+h2 {
+  color: #e67300; /* laranja mais suave */
+  text-align: center;
+}
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-    li {
-      background-color: #f1ba67;
-      margin: 10px 0;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-      font-size: 18px;
-    }
+li {
+  background-color: #ffe0b3; /* bege/amarelo bem clarinho */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+  font-size: 18px;
+}
 
-    footer{
-        background-color: #ffa600;
-        text-align: center;
-        padding: 10px;
-    }
+footer {
+  background-color: #ffd480; /* amarelo dourado claro */
+  text-align: center;
+  padding: 10px;
+}
