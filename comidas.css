@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #fff8dc;
+  background-color: #3e76dd;
   font-family: 'Comic Sans MS';
 }
 
 header {
-  background-color: #ff4500;
+  background-color: #0026ff;
   color: white;
   padding: 20px;
   position: relative;
@@ -24,7 +24,7 @@ header h1 {
   top: 50%;
   transform: translateY(-50%);
   background-color: white;
-  color: #ff4500;
+  color: #0004ff;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
