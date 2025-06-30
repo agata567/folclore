@@ -1,11 +1,11 @@
  body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #fff8dc;
+      background-color: #25246d;
     }
 
     header {
-      background-color: #ff4500;
+      background-color: #2600ff;
       color: white;
       padding: 20px;
       display: flex;
@@ -15,7 +15,7 @@
 
     .voltar {
       background-color: white;
-      color: #ff4500;
+      color: #0004ff;
       border: none;
       padding: 10px 20px;
       font-weight: bold;
@@ -26,7 +26,7 @@
     }
 
     .voltar:hover {
-      background-color: #ffe4b5;
+      background-color: #b6b5ff;
     }
 
     h1 {
@@ -41,7 +41,7 @@
     }
 
     h2 {
-      color: #d35400;
+      color: #0015d3;
       text-align: center;
     }
 
@@ -51,7 +51,7 @@
     }
 
     li {
-      background-color: #ffe4b5;
+      background-color: #678cf1;
       margin: 10px 0;
       padding: 15px;
       border-radius: 8px;
@@ -60,7 +60,7 @@
     }
 
     footer{
-        background-color: #ff4500;
+        background-color: #0400ff;
         text-align: center;
         padding: 10px;
     }
