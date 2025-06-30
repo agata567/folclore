@@ -1,12 +1,12 @@
  body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #0d64d6;
+      background-color: #d64d0d;
       font-family: 'Comic Sans MS';
     }
 
     header {
-      background-color: #0400ff;
+      background-color: #ff7b00;
       padding: 20px;
       color: white;
       text-align: center;
@@ -41,21 +41,21 @@
       background-color: white;
       margin-bottom: 20px;
       padding: 10px;
-      border-left: 5px solid rgb(47, 0, 255);
+      border-left: 5px solid rgb(255, 123, 0);
       border-radius: 5px;
-      box-shadow: 0 0 5px rgb(0, 38, 255);
+      box-shadow: 0 0 5px rgb(3, 3, 3);
       text-align: center;
     }
     .destaque h2{
       margin-bottom: 10px;
-      color: rgb(55, 33, 255);
+      color: rgb(255, 140, 33);
     }
     section{
       margin-bottom: 20px;
     }
 
     footer{
-        background-color: #2f00ff;
+        background-color: #ff7300;
         text-align: center;
         padding: 10px;
     }

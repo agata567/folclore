@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #3e76dd;
+  background-color: #dd703e;
   font-family: 'Comic Sans MS';
 }
 
 header {
-  background-color: #0026ff;
+  background-color: #ff6600;
   color: white;
   padding: 20px;
   position: relative;
@@ -24,7 +24,7 @@ header h1 {
   top: 50%;
   transform: translateY(-50%);
   background-color: white;
-  color: #0004ff;
+  color: #ff5e00;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
@@ -34,7 +34,7 @@ header h1 {
 }
 
 .voltar:hover {
-  background-color: #b5baff;
+  background-color: #ffcab5;
 }
 
 main {
@@ -46,12 +46,12 @@ main {
 }
 
 .comida {
-  background-color: #8ca1ff;
+  background-color: #ffb68c;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
   width: 250px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.644);
 }
 
 .comida h3 {
@@ -60,7 +60,7 @@ main {
 
 .comida span {
   font-weight: bold;
-  color: #0e00d3;
+  color: #d33c00;
   display: block;
   margin-bottom: 10px;
 }
@@ -72,7 +72,7 @@ main {
 }
 
 footer {
-  background-color: #2f00ff;
+  background-color: #ff4800;
   text-align: center;
   padding: 10px;
 }
