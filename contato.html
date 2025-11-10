@@ -1,120 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fale Conosco</title>
-  <style>
-    body {
-  font-family: 'Comic Sans MS', Arial, sans-serif;
-  margin: 0;
-  background-color: #fff0d5; /* fundo tipo palha */
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mande Recado Pro Pessoal do Arraiá</title>
+  <style>
+    body {
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  margin: 0;
+  background-color: #fff0d5; /* fundo tipo palha */
 }
 
 header {
-  background-color: #e94e1b; /* vermelho de fogueira */
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #e94e1b; /* vermelho de fogueira */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-  margin: 0 auto;
-  font-size: 24px;
+  margin: 0 auto;
+  font-size: 24px;
 }
 
 .voltar {
-  background-color: white;
-  color: #c14400; /* laranja queimado tipo paçoca */
-  border: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
+  background-color: white;
+  color: #c14400; /* laranja queimado tipo paçoca */
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .voltar:hover {
-  background-color: #ffe0b3; /* hover tipo canjica */
+  background-color: #ffe0b3; /* hover tipo canjica */
 }
 
 main {
-  max-width: 600px;
-  margin: 40px auto;
-  background-color: #fff2b2; /* curau clarinho */
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(255, 119, 0, 0.2); /* sombra quente */
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff2b2; /* curau clarinho */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(255, 119, 0, 0.2); /* sombra quente */
 }
 
 label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 1px solid #db8400; /* contorno dourado queimado */
-  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #db8400; /* contorno dourado queimado */
+  font-size: 16px;
 }
 
 button {
-  background-color: #b34700; /* doce de leite escuro */
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: #b34700; /* doce de leite escuro */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #8c3900; /* mais intenso no hover */
+  background-color: #8c3900; /* mais intenso no hover */
 }
 
 footer {
-  background-color: #ffc966; /* amarelo canjica */
-  text-align: center;
-  padding: 10px;
+  background-color: #ffc966; /* amarelo canjica */
+  text-align: center;
+  padding: 10px;
 }
 
-  </style>
+  </style>
 </head>
 <body>
 
-  <header>
-    <a class="voltar" href="index.html">Voltar</a>
-    <h1>Fale Conosco📱</h1>
-    <div style="width: 90px;"></div> <!-- Espaço para equilibrar o layout -->
-  </header>
+  <header>
+    <a class="voltar" href="index.html">Voltar</a>
+    <h1>✍️ O Gabinete do Prefeito: Pra Manda Recado Ligeiro! 🌵</h1>
+    <div style="width: 90px;"></div>   </header>
 
-  <main>
-    <form action="https://formspree.io/f/meokngge" method="post">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
+  <main>
+    <p style="text-align: center; font-style: italic; color: #b34700;">
+      *O **Mestre do Forró** tá de ouvido em pé. Mande o causo que lhe aflige, ou o elogio que vem com fé!*
+    </p>
+    
+    <form action="https://formspree.io/f/meokngge" method="post">
+      <label for="nome">O Nome do Parente ou Amigo:</label>
+      <input type="text" id="nome" name="nome" required>
 
-      <label for="turma">Turma:</label>
-      <input type="text" id="turma" name="turma" required>
+      <label for="turma">A Sala Onde O Senhor Estuda:</label>
+      <input type="text" id="turma" name="turma" required>
 
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required>
+      <label for="email">E-mail (Pra Mandar a Resposta):</label>
+      <input type="email" id="email" name="email" required>
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <label for="mensagem">O Recado (Pode ser em Cordel):</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
+      <button type="submit">Entregue a Mensagem ao Mestre!</button>
+    </form>
+  </main>
 
-  <footer>
-    <p>© 2025 Arraiá do 11 – Viva São João!</p>
-  </footer>
+  <footer>
+    <p>© 2025 Arraiá do 11 – Viva São João! E não esqueça do seu chapéu!</p>
+  </footer>
 
 </body>
 </html>
