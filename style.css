@@ -1,11 +1,11 @@
- body {
-  font-family: 'Comic Sans MS', Arial, sans-serif;
+body {
+  font-family: 'Comic Sans MS', Arial, sans-serif; /* Mantendo a fonte */
   margin: 0;
-  background-color: #fff0d5; /* fundo palha suave */
+  background-color: #e6f7ff; /* Fundo: Azul Claro Suave (Céu/Água) */
 }
 
 header {
-  background-color: #e94e1b; /* vermelho fogueira */
+  background-color: #004d00; /* Cabeçalho: Verde Escuro Profundo (Mata/Floresta) */
   padding: 20px;
   color: white;
   text-align: center;
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffe6cc; /* hover suave como doce de leite */
+  color: #c9ffc9; /* Hover: Verde Menta Claro (Folhagem nova) */
 }
 
 main {
@@ -38,18 +38,18 @@ main {
 }
 
 .destaque {
-  background-color: #fff2b2; /* amarelinho tipo curau */
+  background-color: #fff2b2; /* Destaque Fundo: Amarelo Ouro/Palha (Riqueza e Terra) - Mantido próximo ao original mas funciona bem */
   margin-bottom: 20px;
   padding: 10px;
-  border-left: 5px solid #db8400; /* laranja queimado tipo milho assado */
+  border-left: 5px solid #8b4513; /* Borda Destaque: Marrom Terra (Madeira, Solo) */
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(255, 119, 0, 0.2); /* sombra quente */
+  box-shadow: 0 0 5px rgba(139, 69, 19, 0.4); /* Sombra: Sombra de Terra/Madeira */
   text-align: center;
 }
 
 .destaque h2 {
   margin-bottom: 10px;
-  color: #b34700; /* tom de doce de leite/caramelo */
+  color: #b30000; /* Título Destaque: Vermelho Forte (Capuz do Saci, Paixão) */
 }
 
 section {
@@ -57,7 +57,8 @@ section {
 }
 
 footer {
-  background-color: #ffc966; /* amarelo canjica */
+  background-color: #007a00; /* Rodapé: Verde Médio Vibrante (Mata) */
   text-align: center;
   padding: 10px;
+  color: white; /* Adicionado cor do texto para melhor contraste no footer */
 }
