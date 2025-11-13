@@ -5,83 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mande Recado Pro Pessoal do Arraiá</title>
   <style>
-    body {
-  font-family: 'Comic Sans MS', Arial, sans-serif;
+/* --- ESTILO GERAL E FUNDO --- */
+body {
+  font-family: 'Times New Roman', serif; /* Fonte clássica/rústica */
   margin: 0;
-  background-color: #fff0d5; /* fundo tipo palha */
+  background-color: #fce8a6; /* Amarelo Milho Suave */
+  color: #383838;
 }
 
+/* --- CABEÇALHO (A FESTA) --- */
 header {
-  background-color: #e94e1b; /* vermelho de fogueira */
-  color: white;
-  padding: 20px;
+  background-color: #004d00; /* Verde Escuro da Mata */
+  color: #ffcc00; /* Amarelo Ouro/Sol */
+  padding: 25px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 5px dashed #b30000; /* Borda tracejada Vermelha */
 }
 
 header h1 {
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 28px;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 2px #8b4513; /* Sombra Marrom Rústica */
 }
 
 .voltar {
-  background-color: white;
-  color: #c14400; /* laranja queimado tipo paçoca */
-  border: none;
-  padding: 10px 20px;
+  background-color: #b30000; /* Vermelho Fogo/Saci */
+  color: white;
+  border: 2px solid #ffcc00; 
+  padding: 10px 15px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 50px; /* Botão arredondado */
   text-decoration: none;
   font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .voltar:hover {
-  background-color: #ffe0b3; /* hover tipo canjica */
+  background-color: #ff3333;
 }
 
+/* --- CONTEÚDO PRINCIPAL: O QUADRO DE AVISOS --- */
 main {
-  max-width: 600px;
+  max-width: 650px;
   margin: 40px auto;
-  background-color: #fff2b2; /* curau clarinho */
+  background-color: #ffffff; /* Fundo Branco de Papel/Pano */
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(255, 119, 0, 0.2); /* sombra quente */
+  border: 5px solid #8b4513; /* Borda grossa de madeira/terra */
+  box-shadow: 8px 8px 15px rgba(139, 69, 19, 0.4); /* Sombra de profundidade rústica */
 }
 
+main p {
+  text-align: center; 
+  font-style: italic; 
+  color: #db8400; /* Laranja Queimado (Cordel) */
+  margin-bottom: 25px;
+  border-bottom: 1px dotted #db8400;
+  padding-bottom: 15px;
+}
+
+/* --- ELEMENTOS DO FORMULÁRIO --- */
 label {
   font-weight: bold;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  color: #004d00; /* Verde Escuro (Cor da Escrita) */
+  font-size: 1.1em;
 }
 
 input, textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 1px solid #db8400; /* contorno dourado queimado */
+  padding: 12px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  border: 2px solid #ffcc00; /* Contorno Dourado Forte */
+  background-color: #fffaf0; /* Fundo levemente off-white */
   font-size: 16px;
+  box-sizing: border-box; /* Garante que o padding não aumente a largura total */
 }
 
+/* --- BOTÃO DE ENVIO --- */
 button {
-  background-color: #b34700; /* doce de leite escuro */
+  background-color: #b30000; /* Vermelho Fogo/Paixão */
   color: white;
-  padding: 12px 20px;
-  border: none;
-  font-size: 16px;
-  border-radius: 5px;
+  padding: 15px 25px;
+  border: 2px solid #ffcc00;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
   cursor: pointer;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #8c3900; /* mais intenso no hover */
+  background-color: #ff3333; /* Vermelho mais intenso no hover */
 }
 
+/* --- RODAPÉ --- */
 footer {
-  background-color: #ffc966; /* amarelo canjica */
+  background-color: #8b4513; /* Marrom Terra/Madeira */
+  color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  font-size: 0.9em;
 }
 
   </style>
@@ -90,34 +123,10 @@ footer {
 
   <header>
     <a class="voltar" href="index.html">Voltar</a>
-    <h1>✍️ O Gabinete do Prefeito: Pra Manda Recado Ligeiro! 🌵</h1>
-    <div style="width: 90px;"></div>   </header>
+    <h1>✍️ O GABINETE DO PREFEITO: PRA MANDA RECADO LIGEIRO! 🌵</h1>
+    <div style="width: 90px; height: 1px;"></div>   </header>
 
   <main>
-    <p style="text-align: center; font-style: italic; color: #b34700;">
+    <p>
       *O **Mestre do Forró** tá de ouvido em pé. Mande o causo que lhe aflige, ou o elogio que vem com fé!*
     </p>
-    
-    <form action="https://formspree.io/f/meokngge" method="post">
-      <label for="nome">O Nome do Parente ou Amigo:</label>
-      <input type="text" id="nome" name="nome" required>
-
-      <label for="turma">A Sala Onde O Senhor Estuda:</label>
-      <input type="text" id="turma" name="turma" required>
-
-      <label for="email">E-mail (Pra Mandar a Resposta):</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="mensagem">O Recado (Pode ser em Cordel):</label>
-      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-      <button type="submit">Entregue a Mensagem ao Mestre!</button>
-    </form>
-  </main>
-
-  <footer>
-    <p>© 2025 Arraiá do 11 – Viva São João! E não esqueça do seu chapéu!</p>
-  </footer>
-
-</body>
-</html>
