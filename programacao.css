@@ -1,67 +1,72 @@
- body {
-  font-family: 'Comic Sans MS', Arial, sans-serif;
+body {
+  font-family: 'Times New Roman', serif; /* Fonte clássica, remetendo a contos */
   margin: 0;
-  background-color: #fff0d5; /* fundo claro tipo palha */
+  background-color: #f5f5dc; /* Fundo: Bege/Creme (Cor de papel antigo ou palha) */
+  color: #383838; /* Cor de texto: Cinza escuro (Tinta/Carvão) */
 }
 
 header {
-  background-color: #e94e1b; /* vermelho fogueira */
+  background-color: #004d00; /* Cabeçalho: Verde Escuro Profundo (Mata/Floresta) */
   color: white;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.voltar {
-  background-color: white;
-  color: #c14400; /* laranja queimado */
-  border: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: 'Comic Sans MS';
-}
-
-.voltar:hover {
-  background-color: #fff3e0; /* hover bem leve */
+  text-align: center;
+  border-bottom: 5px solid #8b4513; /* Borda Marrom Terra/Madeira */
 }
 
 h1 {
-  margin: 0 auto;
-  font-size: 24px;
+  /* Título principal: como um nome de lenda */
+  font-family: 'Georgia', serif; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffcc00; /* Dourado/Amarelo Ouro (Riqueza e Sol) */
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff9900; /* Laranja Vívido (Fogo/Fogueira) */
 }
 
 main {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: white; /* Conteúdo em fundo claro */
+  padding: 25px;
+  margin-bottom: 30px;
+  border: 1px dashed #a0522d; /* Borda tracejada rústica (Marrom claro) */
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave de profundidade */
 }
 
 h2 {
-  color: #db8400; /* amarelo queimado tipo milho */
-  text-align: center;
+  color: #b30000; /* Vermelho Escuro (Capuz do Saci, Cerimônia) */
+  border-bottom: 2px solid #ffcc00; /* Sublinha Dourada */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  background-color: #fff2b2; /* amarelo clarinho tipo curau */
-  margin: 10px 0;
+.destaque {
+  background-color: #e6f7ff; /* Azul Claro Suave (Céu/Água) */
+  border-left: 8px solid #007a00; /* Borda Verde Vibrante (Natureza) */
   padding: 15px;
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px rgba(255, 102, 0, 0.2);
-  font-size: 18px;
+  margin: 20px 0;
+  font-style: italic;
 }
 
 footer {
-  background-color: #ffc966; /* amarelo canjica */
+  background-color: #8b4513; /* Marrom Terra/Madeira */
+  color: white;
   text-align: center;
-  padding: 10px;
-}
-
