@@ -1,20 +1,22 @@
 body {
-  font-family: 'Comic Sans MS', Arial, sans-serif;
+  font-family: 'Georgia', serif; /* Fonte clássica e elegante */
   margin: 0;
-  background-color: #fff0d5; /* fundo claro tipo palha */
+  background-color: #f5f5f5; /* Fundo: Cinza Claro Suave (Elegância) */
 }
 
 header {
-  background-color: #e94e1b; /* vermelho fogueira */
-  color: white;
+  background-color: #383838; /* Cabeçalho: Cinza Chumbo Escuro (Sofisticação) */
+  color: #fffaf0; /* Cor de texto: Branco Marfim */
   padding: 20px;
   position: relative;
   text-align: center;
+  border-bottom: 4px solid #b8860b; /* Borda: Dourado Envelhecido (Luxo) */
 }
 
 header h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 28px; /* Título maior e imponente */
+  letter-spacing: 2px;
 }
 
 .voltar {
@@ -22,57 +24,70 @@ header h1 {
   left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  background-color: white;
-  color: #c14400; /* laranja queimado */
-  border: none;
+  background-color: #b8860b; /* Botão: Dourado Envelhecido */
+  color: #383838; /* Texto do botão: Cinza Chumbo */
+  border: 1px solid #996515;
   padding: 10px 20px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px; /* Borda mais reta */
   text-decoration: none;
   font-size: 16px;
+  transition: all 0.3s ease;
 }
 
 .voltar:hover {
-  background-color: #fff3e0; /* hover suave tipo pamonha */
+  background-color: #cfb53b; /* Hover: Dourado mais claro/vivo */
+  box-shadow: 0 0 10px rgba(184, 134, 11, 0.5);
 }
 
 main {
-  padding: 30px;
+  padding: 40px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px; /* Aumentado o espaçamento */
   justify-content: center;
 }
 
 .comida {
-  background-color: #fff2b2; /* amarelo tipo curau */
-  padding: 15px;
-  border-radius: 10px;
+  background-color: #ffffff; /* Fundo do item: Branco puro (Prato Limpo) */
+  padding: 20px;
+  border-radius: 5px;
   text-align: center;
-  width: 250px;
-  box-shadow: 2px 2px 8px rgba(255, 119, 0, 0.2);
+  width: 280px; /* Largura levemente aumentada */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave e profunda */
+  transition: transform 0.3s ease;
+}
+
+.comida:hover {
+  transform: translateY(-5px); /* Efeito sutil de elevação */
 }
 
 .comida h3 {
+  font-family: 'Times New Roman', serif;
   margin: 10px 0 5px 0;
+  color: #8b0000; /* Vermelho Vinho/Bordô (Toque de Especiaria) */
+  text-transform: uppercase;
 }
 
 .comida span {
-  font-weight: bold;
-  color: #b34700; /* tom caramelo */
+  font-weight: normal;
+  color: #696969; /* Cinza Escuro (Preço ou Detalhe) */
+  font-style: italic;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
 }
 
 .comida img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 2px; /* Borda mais discreta */
+  border: 1px solid #dcdcdc; /* Borda sutil para a foto */
 }
 
 footer {
-  background-color: #ffc966; /* amarelo canjica */
+  background-color: #383838; /* Rodapé: Cinza Chumbo */
+  color: #b8860b; /* Texto do Rodapé: Dourado Envelhecido */
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
-
